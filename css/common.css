@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400&display=swap');
+
+html,body{margin:0;}
+p,figure,h1,h2,h3,h4,h5,h6{margin:0;}
+ul,li{list-style: none; margin:0; padding:0;}
+table{border-collapse:collapse}
+*{
+    box-sizing: border-box;
+    font-family: 'Spartan','Gothic A1', sans-serif;
+    letter-spacing: -1px;
+}
+img{ vertical-align: top;}
+a{
+    text-decoration: none;
+    color:#555;
+}
+
+.menu a{
+    position: absolute;
+    top:40px;
+    right:40px;
+    z-index: 1000;
+    height: 10px;    
+}
+
+
+.menu2{
+    position: absolute;
+    top:0px;right:0;
+    z-index: 999;
+    display: none;
+    background: white;
+    height: 270px;
+    width:250px
+
+
+
+}
+.menu2 a{
+    font-family: Now;
+    color:#0a8fb2;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    
+
+}
+

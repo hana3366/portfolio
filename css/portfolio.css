@@ -1,0 +1,40 @@
+@charset 'utf-8';
+@import url('common.css');
+
+body{ 
+    background: #e7ecf0;
+    height:1090px;
+}
+
+.portfolio{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.work{
+    width:80%;
+    padding:200px 0 100px 0;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.work p{
+    width:21%;
+    margin:0px 0 70px 0px;
+
+
+}
+.work p a{
+   display: block;
+}
+.work p strong{
+    line-height:2.5em;
+    font-size: 18px;
+    font-weight: normal;
+    display: block;
+
+}
+.work p img{
+    width:100%;
+}
